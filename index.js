@@ -26,7 +26,7 @@
 
     To actually create a unique copy of an array/object, you need to copy the CONTENTS of 
     the array/object into a new array/object
-    The easiest way to do this is destructing assignment.
+    The easiest way to do this is destructuring assignment.
 
     let copiedArray = [...originalArray] 
 
@@ -37,14 +37,14 @@
     The ... placed before a variable holding an object or array selects the CONTENT of the
     array/object without selecting the container.
 
-    ...someArray is the same as saying "extract the contents of some array"
+    ...someArray means "extract the contents of some array"
 
     But the contents need a new place to live, which is why you dump them into a new object or array
     [...array] or {...object} creates a new array or object with the copied contents of the old
 
     This is no different than initializing any other array or object.
 
-    let someObject = { K:"V" }
+    let someObject = { K: "V" }
     let someArray = [1, 2, 3]
 
     You fill new arrays/objects with values all the time.
