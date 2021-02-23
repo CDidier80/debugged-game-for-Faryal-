@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    /* background-image: url('background.JPEG');
+    background-size: 100%; */
+    font-family: 'Bungee Shade', cursive;
+  }
+  h1{
+    margin-top: 5rem;
+    font-family: 'Inconsolata', monospace;
+  }
+  button {
+    color: black;
+    padding: 1vh 3vw 1vh 3vw;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  /*
+  GAMEBORD
+  */
+  /* .container {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 5% 5% 0 5%;
+    border-radius: 10%;
+  } */
+  .game-board {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin: 0 9vw 0 0;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+  }
+  .cell {
+    height: 300px;
+    width: 300px;
+    background-color: #a0446c;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .cards-won {
+    background-color: white;
+  }
